@@ -6,10 +6,12 @@
         </div>
         <div class="card-action">
           <a href="/blogs/<%= blog.id %>">詳細</a>
-          <% if user_signed_in? && current_user.id == blog.user_id %>
+          <% if loyalty(@blog).edit? %>
           <a href="/blogs/<%= blog.id %>/edit">編集</a>
           <a href="/blogs/<%= blog.id %>" data-method="delete">削除</a>
           <% end %>
         </div>
       </div>
       <% end %>
+<% if user_signed_in? && current_user.id == blog.user_id %>
+<% end %>

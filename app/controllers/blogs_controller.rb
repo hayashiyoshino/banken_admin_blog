@@ -13,6 +13,7 @@ class BlogsController < ApplicationController
   end
 
   def edit
+    authorize! @blog
     @blog = Blog.find(params[:id])
   end
 
