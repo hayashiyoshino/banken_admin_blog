@@ -69,6 +69,7 @@ gem 'bootstrap-material-design', '0.1.4'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'kaminari'
+gem 'banken'
 
 group :production do
   gem 'pg', '~> 0.18'
