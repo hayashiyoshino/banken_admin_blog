@@ -1,5 +1,5 @@
 class BlogsLoyalty < ApplicationLoyalty
   def edit?
-    current_user.admin? || current_user == record.user
+    user.admin? || user == record.user
   end
 end
