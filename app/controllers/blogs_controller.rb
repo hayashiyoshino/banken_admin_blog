@@ -1,5 +1,6 @@
 class BlogsController < ApplicationController
   def index
+    # binding.pry
     @blogs = Blog.all.order('created_at DESC')
   end
 
@@ -13,8 +14,8 @@ class BlogsController < ApplicationController
   end
 
   def edit
-    authorize! @blog
     @blog = Blog.find(params[:id])
+    authorize! @blog
   end
 
   def update

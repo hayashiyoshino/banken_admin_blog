@@ -70,6 +70,7 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'kaminari'
 gem 'banken'
+gem 'better_errors'
 
 group :production do
   gem 'pg', '~> 0.18'
