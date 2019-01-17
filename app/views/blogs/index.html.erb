@@ -6,10 +6,10 @@
         </div>
         <div class="card-action">
           <a href="/blogs/<%= blog.id %>">詳細</a>
-          <% if loyalty(@blog).edit? %>
+
           <a href="/blogs/<%= blog.id %>/edit">編集</a>
           <a href="/blogs/<%= blog.id %>" data-method="delete">削除</a>
-          <% end %>
+
         </div>
       </div>
       <% end %>
