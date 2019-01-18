@@ -3,6 +3,6 @@ class ApplicationController < ActionController::Base
   # binding.pry
   before_action :authenticate_user!
 
-
+  # HASH_DATA = { user: current_user}
 
 end
