@@ -1,0 +1,15 @@
+current directory: /Users/hayashiyoshino/projects/rails-projects/banken_admin_blog/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.2/ext/bootsnap
+/Users/hayashiyoshino/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20190118-22703-44n5kj.rb extconf.rb
+creating Makefile
+
+current directory: /Users/hayashiyoshino/projects/rails-projects/banken_admin_blog/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.2/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/hayashiyoshino/projects/rails-projects/banken_admin_blog/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.2/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/hayashiyoshino/projects/rails-projects/banken_admin_blog/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.2/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20190118-22703-nu8wg/bootsnap
