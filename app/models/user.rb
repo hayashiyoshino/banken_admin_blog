@@ -6,7 +6,7 @@ class User < ApplicationRecord
 
   has_many :blogs
 
-  enum role {
+  enum role: {
     member: 1,
     teacher: 2,
     admin: 3
